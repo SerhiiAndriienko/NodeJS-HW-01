@@ -44,17 +44,3 @@ program.parse();
 
 const options = program.opts();
 invokeAction(options);
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "e6ywwRe4jcqxXfCZOj_1e" });
-
-// invokeAction({ action: "remove", id: "1gfxvh5p0lkldawzt" });
-// invokeAction({
-//   action: "add",
-//   name: "John",
-//   email: "test@email.com",
-//   phone: "111-222-333",
-// });
-
-// const arr = hideBin(process.argv);
-// const { argv } = yargs(arr);
-// invokeAction(argv);
